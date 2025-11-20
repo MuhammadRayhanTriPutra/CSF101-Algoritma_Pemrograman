@@ -27,7 +27,7 @@ void strukturData(int &pilihanUR) {
             cout << "[4] isEmpty" << endl;
             cout << "[5] Size" << endl;
             cout << "[6] Exit" << endl;
-            cout << ": ";
+            cout << "Pilih Operasi: ";
             if(!cin >> pilihanUR) {
                 cin.clear();
                 cin.ignore();
@@ -42,7 +42,7 @@ void strukturData(int &pilihanUR) {
             }
 
             if(pilihanUR == 1) {
-                
+                cout << "aman";
             }
         }
     }
