@@ -1,3 +1,5 @@
 uts/
 
 *.exe
+
+.gitignore
