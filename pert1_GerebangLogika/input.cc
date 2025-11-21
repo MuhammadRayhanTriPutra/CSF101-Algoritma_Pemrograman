@@ -8,7 +8,6 @@ int main() {
 
     cout << "Masukkan nama Anda: ";
     getline(cin, nama); 
-
     
     cout << "Masukkan sebuah angka: ";
     cin >> angka;

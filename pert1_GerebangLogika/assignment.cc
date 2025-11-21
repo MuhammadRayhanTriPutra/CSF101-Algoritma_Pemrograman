@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int x;
-    x = 10;
+    x = 15;
     cout << "Nilai dari variabel x adalah: " << x << endl;
 
     int y = 20;

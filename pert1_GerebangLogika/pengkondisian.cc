@@ -12,6 +12,6 @@ int main() {
     } else {
         cout << "Maaf, Anda Tidak Lulus." << endl;
     }
-
+    
     return 0;
 }

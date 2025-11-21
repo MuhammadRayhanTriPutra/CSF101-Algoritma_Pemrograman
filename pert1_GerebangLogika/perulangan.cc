@@ -24,7 +24,7 @@ int main() {
     do {
         cout << "Perulangan ke-" << k << endl;
         k++;
-    } while (k <= 5);
+    } while (k <= 3);
 
     return 0;
 }
