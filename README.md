@@ -12,7 +12,7 @@ git init
 - Create a .git folder inside your workspace
 
 ```bash
-git add remote (Give remote name, or just use origin) https://github.com/name/repositoryName
+git remote add (Give remote name, or just use origin) https://github.com/name/repositoryName
 ```
 - Add remote, give it a name, and assign your repository link
 
