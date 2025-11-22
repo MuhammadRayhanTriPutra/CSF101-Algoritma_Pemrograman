@@ -4,6 +4,7 @@
 using namespace std;
 
 void start(int &pilihan) {
+    system("cls");
     cout << "=====Implementasi Stack=====" << endl;
     cout << "[1] Undo / Redo Kalimat" << endl;
     cout << "[2] Membalik Kalimat" << endl;
@@ -94,6 +95,7 @@ void membalikanKalimat(int &pilihanUR) {
     string kalimat;
     string hasil;
     stack<char> tumpukan;
+    system("cls");
 
     while (true) {
         cout << "=====Implementasi Stack: Membalikan Kalimat=====" << endl;
@@ -125,9 +127,13 @@ void membalikanKalimat(int &pilihanUR) {
                     tumpukan.pop();
                 }
 
-                cout << "\n--Hasil Kalimat Yang Di Balik--" << endl;
+                cout << "\n--Hasil Kalimat Terbalik--" << endl;
                 cout << hasil << endl;
-                cout << "-------------------------------" << endl << endl;
+                for(char c : hasil) {
+                    cout << "-";
+                }
+                cout << endl;
+                cout << endl;
                 hasil.clear();
             }
         } else {
@@ -158,6 +164,7 @@ void konversiNotasiInfixPostfix(int &pilihanUR) {
     string infix;
     string postfix;
     stack<char> tumpukan;
+    system("cls");
 
     while (true) {
         cout << "=====Implementasi Stack: Notasi Infix ke Postfix=====" << endl;
