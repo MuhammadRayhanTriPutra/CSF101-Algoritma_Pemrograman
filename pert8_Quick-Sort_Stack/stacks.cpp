@@ -218,7 +218,7 @@ void validitasKurung(int &pilihanMenu) {
                 cout << "Bilangan Invalid, ada kurung yang tidak mempunyai pasangan!" << endl << endl;
             }
         } else {
-            cout << "Opsi invalid, mohon masukan pilihan yang tepat. \n" << endl << endl;
+            cout << "Opsi invalid, mohon masukan pilihan yang tepat.\n" << endl << endl;
         }
     }
 }
